@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #45a049;
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px;  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #45a049;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  } 
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .question_header {
+    background-color: #45a049;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .option_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .answers_options { 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  } 
+  
+  .answers_options:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #next-question {
+    display: none;
+    background-color: #45a049;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #next-question:hover {
+    background-color: #36833a;
+  } 
+  
+  li.answers_options { 
+    background-color: white;
+  }  
+  
+  .answers_options.correct{ 
+    background-color: #8eff8e; 
+  } 
+  
+  .answers_options.incorrect{ 
+    background-color: #ff8e8e;
+  }
+  
+  #scoreBox {
+    margin-top:20px; 
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #correctCount {
+    color: #4caf50; 
+    font-weight: bold;
+  }
+  
+  #incorrectCount {
+    color: #f44336; 
+    font-weight: bold;
+  }
+  
+  .correct-answer{ 
+    color:#4caf50; 
+    font-weight:bold; 
+    margin-left:10px;
+  }
+  
